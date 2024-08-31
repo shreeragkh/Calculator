@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="calculator">
+            <div id="screen"></div>
+            <div class="keypads">
+                <div onclick="ClearScreen()" role="button" id="clear">CLR</div>
+               <div onclick="buttonclick('7')" role="button" class="Btn">7</div>
+               <div onclick="buttonclick('8')" role="button" class="Btn">8</div> 
+               <div onclick="buttonclick('9')" role="button" class="Btn">9</div> 
+               <div onclick="buttonclick('+')" role="button" class="Btn">+</div> 
+               <div onclick="buttonclick('4')" role="button" class="Btn">4</div> 
+               <div onclick="buttonclick('5')" role="button" class="Btn">5</div> 
+               <div onclick="buttonclick('6')" role="button" class="Btn">6</div> 
+               <div onclick="buttonclick('-')" role="button" class="Btn">-</div> 
+               <div onclick="buttonclick('1')" role="button" class="Btn">1</div> 
+               <div onclick="buttonclick('2')" role="button" class="Btn">2</div> 
+               <div onclick="buttonclick('3')" role="button" class="Btn">3</div> 
+               <div onclick="buttonclick('*')" role="button" class="Btn">*</div> 
+               <div onclick="buttonclick('0')" role="button" class="Btn">0</div> 
+               <div onclick="buttonclick('.')" role="button" class="Btn">.</div> 
+               <div onclick="EqualTo()" role="button" class="Btn">=</div> 
+               <div onclick="buttonclick('/')" role="div" class="Btn">/</div> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #0B8494;
+    background-color: #1E2A5E;
+}
+#screen{
+    margin:10px;
+    width: 470px;
+    height:100px;
+    border: 1px solid #0B8494;
+    display: flex;
+    align-items: center;
+    background-color: #FFF8E8;
+}
+.keypads{
+    width: 470px;
+    height: 350px;
+    border: 1px  solid #0B8494;
+    margin: 10px;
+    background-color: #55679C;
+}
+.Btn{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    border: 1px solid#0B8494;
+    margin: 25px 20px 10px 20px ;
+    text-align: center;
+    cursor: pointer;
+    background-color: #FFF8E8;
+}
+#clear{
+    display:block;
+    width: 70px;
+    height: 30px; 
+    border: 1px solid#0B8494;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #FFF8E8;
+}
+
